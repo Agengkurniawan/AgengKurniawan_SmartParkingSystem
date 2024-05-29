@@ -1,0 +1,646 @@
+/*header*/
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-image: url('Gambar 1.jpg');
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+
+header {
+    background-color: #1b1b32;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav li a:hover{
+    transition-duration: 0.2s;
+    cursor:pointer;
+    color: #55acee;
+    border-bottom: 7px solid #55acee;
+    border-radius: 10px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button.signup {
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+    background-color:#009ff5;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button.signup:hover {
+    background-color: #0077b5;
+}
+
+/*about*/
+
+.about-us {
+    padding: 50px 60px;
+}
+
+.about-us img {
+    width: 500px;
+    margin-left: 50px;
+    position: static;
+    border-radius: 15px;
+    float:right;
+}
+
+.about-us h1{
+    font-size: 40px;
+}
+
+.about-us p {
+    text-indent: 2rem;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*services*/
+
+.services-1 {
+    display: flex;
+    align-items: center;
+    margin: 30px 90px;
+}
+
+.services-1  h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.garis-kiri, .garis-kanan {
+    flex: 1;
+    border-radius: 5px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+.fitur-manfaat {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fitur p, .manfaat p {
+    font-size: 25px;
+    font-weight: bold;
+    color:#fff;
+}
+
+.fitur ul, .manfaat ul {
+    list-style: none;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.fitur  li::before, .manfaat li::before {
+    content: "★"; 
+    color: #fff;
+    font-size: 1.5em; 
+    margin-right: 10px;
+}
+
+.services {
+    padding: 20px 60px;
+}
+
+.services h1 {
+    font-size: 40px;
+}
+
+.services ul li {
+    display: inline-block;
+    margin: 25px;
+    border: 3px solid #fff;
+    width: 380px;
+    border-radius: 7px;
+}
+
+.services ul li img {
+    width: 370px;
+    height: auto;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.services ul li p {
+    text-indent: 2rem;
+    text-align: justify;
+    font-size: 20px;
+    margin:10px;
+}
+
+.services button {
+    margin: 10px;
+    background-color:#009ff5;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.services button:hover {
+    background-color:#0077b5; 
+}
+
+.hidden-content {
+    margin: 10px;
+    text-align: justify;
+    font-size: 20px;
+    display: none;
+}
+
+/* Team */
+.team {
+    display: flex;
+    align-items: center;
+    margin: 20px 90px;
+}
+
+.team h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.garis-kiri, .garis-kanan {
+    flex: 1;
+    border-radius: 5px;
+    height: 2px;
+    background-color: #fff;
+    margin: 10px 10px;
+}
+
+.foto-team {
+    display:flex ;
+    margin-left:200px;
+}
+
+.foto-team ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-team ul li {
+    margin: 10px 80px;
+    text-align: center;
+}
+
+.foto-team ul li img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.foto-team ul li p {
+    font-size: 20px;
+}
+
+/*rating*/
+.rating {
+    margin: 0px 90px;
+    margin-top: 50px;
+}
+
+.rating h1 {
+    font-size: 40px;
+}
+
+.rating ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.rating li {
+    list-style: none;
+    text-align: center;
+}
+
+.rating li h2 {
+    font-size: 50px;
+    color:#fff;
+}
+
+.rating li h3 {
+    border: 3px solid #fff;
+    width: 70px;
+    display: inline-block;
+    font-size: 50px;
+}
+
+.rating li p {
+    font-size: 20px;
+    color:#fff;
+    margin-top: -30px;
+}
+
+.ulasan {
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 70px;
+}
+
+.ulasan ul {
+    margin-left: 100px;
+    list-style: none;
+    display: inline-block;
+}
+
+.ulasan ul li {
+    width: 500px;
+}
+
+.ulasan ul li .star {
+    color: gold;
+    font-size: 25px;
+}
+
+.ulasan ul li p {
+    font-size: 20px;
+    text-align: left;
+}
+
+.ulasan ul li img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.ulasan ul li h1 {
+    margin-left: 70px;
+    margin-top: 35px;
+}
+
+
+/*footer*/
+
+footer {
+    background-color:#1b1b32;
+    padding: 20px;
+}
+
+.contact-info p {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.social-media ul {
+    display: flex;
+    margin-left: -30px;
+    margin-top: 60px;
+}
+
+.social-media ul li {
+    list-style: none;
+}
+
+.social-media ul li a {
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    text-align:center;
+    font-size: 20px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+}
+
+.social-media ul li a .icon {
+    position: relative;
+    padding: 3px 2px;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+}
+
+.social-media li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+.social-media li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+.social-media li a:hover:before {
+    top: 0;
+}
+
+.social-media li:nth-child(1) a:before{
+    background: #3b5999;
+}
+
+.social-media li:nth-child(2) a:before{
+    background: #55acee;
+}
+
+.social-media li:nth-child(3) a:before {
+    background: #dd4b39;
+}
+
+.subscribe {
+    text-align: center;
+    margin-left: 1000px;
+    margin-top: -200px;
+}
+
+.subscribe input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.subscribe button {
+    background-color: #009ff5;
+    padding: 8px;
+    width: 80px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color:#0077b5;
+}
+
+/*login & signup*/
+.login, .signup {
+    text-align: center;
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.forget-pss {
+    text-align: right;
+}
+
+.forget-pss a {
+    color: #fff;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.signup-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.login-box h1, .signup-box h1 {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 80%;
+    text-transform: uppercase;
+    border-bottom: 4px solid #009ff5;
+}
+
+.login form, .signup form {
+    margin: auto;
+    width: 300px;
+}
+
+.login form input, .signup form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+.login form button, .signup form button {
+    background-color: #009ff5;
+    border: none;
+    color:#fff;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.login form button:hover, .signup form button:hover {
+    background-color:#0077b5;
+}
+
+.login p a, .signup a {
+    color: #fff;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.login a:hover, .signup a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sosmed-signup ul, .sosmed-login ul {
+    display: flex;
+    margin-left: 130px;
+}
+
+.sosmed-signup ul li, .sosmed-login ul li {
+    list-style: none;
+}
+
+.sosmed-signup ul li a, .sosmed-login ul li a {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    text-align:center;
+    line-height: 25px;
+    font-size: 23px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+}
+
+.sosmed-signup ul li a .icon, .sosmed-login ul li a .icon {
+    position: relative;
+    padding: 3px 2px;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+}
+
+.sosmed-signup li a:hover .icon, .sosmed-login li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+.sosmed-signup li a:before, .sosmed-login li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+.sosmed-signup li a:hover:before, .sosmed-login li a:hover:before {
+    top: 0;
+}
+
+.sosmed-signup li:nth-child(1) a:before, .sosmed-login li:nth-child(1) a:before{
+    background: #3b5999;
+}
+
+.sosmed-signup li:nth-child(2) a:before, sosmed-login li:nth-child(2) a:before{
+    background: #000;
+}
+
+.sosmed-signup li:nth-child(3) a:before, sosmed-login li:nth-child(3) a:before {
+    background: #55acee;
+}
+
+/*contact*/
+.contact-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1000px;
+    height: 550px;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.contact {
+    position: absolute;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 800px;
+}
+
+.contact h1 {
+    font-size: 25px;
+}
+
+.contact p {
+    font-size: 17px;
+}
+
+.message {
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+.message input {
+    width: 150%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+.message textarea {
+    width: 155%;
+    height: 150px;
+    border-radius: 7px;
+}
+
+.message button {
+    background-color: #009ff5;
+    border: none;
+    color:#fff;
+    width: 155%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.message button:hover {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+
